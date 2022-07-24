@@ -1,0 +1,7 @@
+So i have already docker builded using the Dockerfile our app image and now we are trying to upload the image to our profile in docker (fj17x/hooks-test) but it is not happening right now.
+
+we have a public IP using an amazon EC2 server we created and we installed docker on the machine by SSH'ing into it. I even logged into Docker but because we couldnt run "docker run -p 8000:8000 fj17x/hooks-test" our app wont be visible there. 
+
+Right now i have hosted "docker/getting-started" on the address given by amazon.
+
+13.232.181.45:8000

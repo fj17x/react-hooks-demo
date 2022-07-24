@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+html {
+	font-family: 'Vollkorn', serif;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+	text-align: center;
+}

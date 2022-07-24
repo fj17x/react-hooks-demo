@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import State from './components/State';
+import styled from 'styled-components';
+import Effect from './components/Effect';
+import Reducer from './components/Reducer';
+import Ref from './components/Ref';
+import './styles/App.css'
+import LayoutEffect from './components/LayoutEffect';
+import Context from './components/Context';
+import Memo from './components/Memo';
+import Callback from './components/Callback'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			<Margin>
+				<State />
+			</Margin>
+			<Margin>
+				<Effect />
+			</Margin>
+			<Margin>
+				<LayoutEffect />
+			</Margin>
+			<Margin>
+				<Reducer />
+			</Margin>
+			<Margin>
+				<Ref />
+			</Margin>
+			<Margin>
+				<Context />
+			</Margin>
+			<Margin>
+				<Memo />
+			</Margin>
+			{/* <Margin>
+				<Callback />
+			</Margin> */}
+		</>
+	)
 }
 
-export default App;
+const Margin = styled.div`
+border: 1px solid black;
+display:flex;
+justify-content: center;
+align-items: center;
+margin:1px;
+padding:2px;
+`
+
+export default App
