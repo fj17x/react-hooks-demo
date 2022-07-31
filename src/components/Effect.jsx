@@ -18,6 +18,7 @@ function Effect() {
         <u>useEffect</u>
       </h1>
       <h2>The unix time of Rome is {date.unixtime} </h2>
+      <h3>The above information is fetched before the component renders.</h3>
     </div>
   )
 }

@@ -15,7 +15,7 @@ function State() {
       </h1>
       <h2>{num}</h2>
       <Button color="orange" onClick={increment}>
-        Click here bruh!
+        Click here to change state!
       </Button>
     </div>
   )

@@ -51,7 +51,7 @@ function Child2() {
   const Fdata = React.useContext(AppContext)
   return (
     <div style={{ backgroundColor: "orange" }}>
-      The value is: {Fdata.data + Fdata.data2}
+      Child 2 <br></br>The value is: {Fdata.data + Fdata.data2}
     </div>
   )
 }

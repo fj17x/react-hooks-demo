@@ -15,9 +15,11 @@ function Memo() {
     return (
       <div>
         <h3>
-          forever is an unrelated function (but still used in this component)
-          but is still executed when name changes. Check the console to confirm.
-          It's memo has been made to only update when depend is changed.
+          forever is an unrelated function (to the "name" state, but still used
+          in this component) but is still run when "name" state changes. Check
+          the console to confirm. It's useMemo function has been made to only
+          update when depend is changed. Click the useMemo button to use the
+          memoized function.
         </h3>
       </div>
     )
@@ -60,7 +62,7 @@ function Memo() {
           setM(true)
         }}
       >
-        Toggle memo
+        Toggle useMemo
       </Button>
     </div>
   )

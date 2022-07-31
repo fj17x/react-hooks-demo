@@ -20,7 +20,8 @@ function LayoutEffect() {
       <h1>
         <u>useLayoutEffect</u>
       </h1>
-      <h2>This executes even before useEffect: {date.unixtime}</h2>
+      <h2>The unix time of Rome is {date.unixtime}</h2>
+      <h3>This executes even before useEffect</h3>
     </div>
   )
 }
