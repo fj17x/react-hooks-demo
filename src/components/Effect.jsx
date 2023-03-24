@@ -4,7 +4,7 @@ function Effect() {
   const [date, setDate] = React.useState({})
 
   React.useEffect(() => {
-    fetch("http://worldtimeapi.org/api/timezone/Europe/Rome", {
+    fetch("https://worldtimeapi.org/api/timezone/Europe/Rome", {
       method: "GET",
     })
       .then((res) => res.json())

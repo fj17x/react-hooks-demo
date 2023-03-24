@@ -7,7 +7,7 @@ import React from "react"
 function LayoutEffect() {
   const [date, setDate] = React.useState({})
   React.useLayoutEffect(() => {
-    fetch("http://worldtimeapi.org/api/timezone/Europe/Rome", {
+    fetch("https://worldtimeapi.org/api/timezone/Europe/Rome", {
       method: "GET",
     })
       .then((res) => res.json())
